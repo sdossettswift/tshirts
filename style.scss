@@ -3,3 +3,7 @@ ul{
     color: #aaa;
   }
 }
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}

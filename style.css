@@ -1,3 +1,7 @@
 ul li{
-    color: #aaa;
+  color: #aaa;
+}
+
+*, *:before, *:after{
+  box-sizing: border-box;
 }
