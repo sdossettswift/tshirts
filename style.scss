@@ -1,8 +1,13 @@
-ul{
-  li{
-    color: #aaa;
-  }
-}
+/*VARIABLES*/
+
+$blue: #47a3da;
+$pink: rgb(212,130, 170);
+$yellow: rgb(220, 176, 125);
+$white: #FFFFFF;
+
+$default-font: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
 
 *, *:before, *:after{
   box-sizing: border-box;
@@ -18,7 +23,54 @@ ul{
   }
   & .grid-2{
     & > *{
-        width: 50%; 
+        width: 50%;
+    }
+  }
+}
+
+.grid{
+  text-align: justify;
+  font-size: 0;
+  & > * {
+    display: inline-block;
+    font-size: medium;
+    text-align: left;
+  }
+  &:after {
+    content:"";
+    width: 100%;
+    display: inline-block;
+   }
+  &.top{
+    & > * {
+      vertical-align: top;
+    }
+  }
+}
+
+.square{
+  &:after{
+    content: "";
+    padding-top: 100%;
+    display: block;
+  }
+
+}
+.tshirt{
+  .bigshirt{
+
+  }
+  .icons{
+    & > *{
+      width: 20%;
+      min-height: 50px;
+      border: 1px solid $blue;
+    }
+    & > span{
+      display: block;
+      position: absolute;
+      font-size: 3rem; 
+
     }
   }
 }
