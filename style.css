@@ -5,3 +5,20 @@ ul li{
 *, *:before, *:after{
   box-sizing: border-box;
 }
+
+.grid{
+  font-size: 0;
+  text-align: justify
+}
+
+.grid > *{
+  display: inline;
+  text-align: left;
+  font-size: medium;
+}
+
+.grid .grid-2{}
+
+.grid .grid-2 > *{
+  width: 50%;
+}

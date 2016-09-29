@@ -7,3 +7,18 @@ ul{
 *, *:before, *:after{
   box-sizing: border-box;
 }
+
+.grid{
+  font-size: 0;
+  text-align: justify;
+  & > * {
+    display: inline;
+    text-align: left;
+    font-size: medium;
+  }
+  & .grid-2{
+    & > *{
+        width: 50%; 
+    }
+  }
+}
