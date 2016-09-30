@@ -5,7 +5,7 @@ $pink: rgb(212,130, 170);
 $yellow: rgb(220, 176, 125);
 $white: #FFFFFF;
 
-$default-font: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$default-font: 'Quicksand', sans-serif;
 
 /* box sizing */
 
@@ -64,7 +64,7 @@ $default-font: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-s
   .icons{
       border-top: 3px solid $blue;
       border-bottom: 3px solid $blue;
-      border right: 3px solid $blue; 
+      border right: 3px solid $blue;
       width: 100%;
       position: relative;
       & .first{
