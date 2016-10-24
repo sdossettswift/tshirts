@@ -9,3 +9,5 @@ echo "node_modules" > .gitignore
 hub create <PROJECTNAME>
 
 # now edit and build as usual :-)
+
+Hello Sarah #hacktoberfest
